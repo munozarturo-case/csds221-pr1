@@ -1,4 +1,4 @@
-# CSDS221 Project 1
+# CSDS221 Project 1 - Bootstrap Submission Form
 
 ## Requirements
 
