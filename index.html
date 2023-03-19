@@ -12,8 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 
-    <link href="libs/toastr.css" rel="stylesheet" />
-    <script src="libs/toastr.js"></script>
+    <link href="libs/toastr.css" type="text/css" rel="stylesheet">
+    <script src="libs/toastr.min.js"></script>
 
     <style>
         .panel-body .input-group {
@@ -251,8 +251,8 @@
                                     <span class="input-group-addon" id="basic-addon1">
                                         <i class="fa-solid fa-envelope"></i>
                                     </span>
-                                    <input type="text" class="form-control" id="email-input" placeholder="E-mail Address"
-                                        aria-describedby="basic-addon1">
+                                    <input type="text" class="form-control" id="email-input"
+                                        placeholder="E-mail Address" aria-describedby="basic-addon1">
                                 </div>
                             </div>
                         </div>
@@ -271,25 +271,25 @@
                                                 Select <span class="caret"></span>
                                             </button>
                                             <ul class="dropdown-menu" role="menu" aria-labelledby="adult-selector">
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">1</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">2</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">3</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">4</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">5</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">5</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">6</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">6</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">7</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">7</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">8</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">8</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">9</a>
                                                 </li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10</a>
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#/">10</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -380,8 +380,9 @@
                     <button type="button" class="btn btn-primary btm-med" id="erase-btn" onclick="clearForm()">
                         <i class="fa fa-trash" aria-hidden="true"></i> Erase
                     </button>
-                    <button type="submit" class="btn btn-success btm-med" id="submit-btn" onclick="submitForm()">
-                        <i class="fa fa-check" aria-hidden="true"></i> Submit
+                    <!-- type="submit" to submit the form -->
+                    <button type="button" class="btn btn-success btm-med" id="submit-btn" href="#/" onclick="submitForm()">
+                        <i class="fa fa-check" aria-hidden="true""></i> Submit
                     </button>
                 </div>
             </div>
@@ -390,7 +391,6 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/cf53ebfefe.js" crossorigin="anonymous"></script>
-    <script src="lib/toastr.min.js" type="javascript"></script>
 </body>
 <footer>
     <div class="container text-center">

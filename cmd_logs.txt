@@ -1,0 +1,529 @@
+Microsoft Windows [Version 10.0.19044.2604]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>echo "# csds221-pr1" >> README.md
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git init
+Reinitialized existing Git repository in C:/Users/bean_/Programming/Websites/BootstrapForm/.git/
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add README.md
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "first commit"
+[main a896746] first commit
+ 1 file changed, 1 insertion(+)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git branch -M main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git remote add origin https://github.com/munozarturo-case/csds221-pr1.git
+error: remote origin already exists.
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 463 bytes | 231.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/munozarturo-case/csds221-pr1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add readme.md
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "updated readme"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        target_look.JPG
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added index.html and target look"
+[main 2384173] added index.html and target look
+ 3 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 target_look.JPG
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "initial html"
+[main ff78713] initial html
+ 2 files changed, 13 insertions(+), 1 deletion(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 32.10 KiB | 8.02 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/munozarturo-case/csds221-pr1.git
+   a896746..ff78713  main -> main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "reformat readme reqs"
+[main e7dde63] reformat readme reqs
+ 1 file changed, 13 insertions(+), 13 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 421 bytes | 421.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/munozarturo-case/csds221-pr1.git
+   ff78713..e7dde63  main -> main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added user"
+[main 1a491d9] added user
+ 2 files changed, 31 insertions(+), 3 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "i dont even know"
+[detached HEAD 0382d65] i dont even know
+ 2 files changed, 76 insertions(+), 14 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added all elements to form"
+[detached HEAD 804fd50] added all elements to form
+ 2 files changed, 176 insertions(+), 25 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added select"
+[detached HEAD e2602b9] added select
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added clearForm()"
+[detached HEAD 0d01da5] added clearForm()
+ 1 file changed, 80 insertions(+), 32 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added textarea clear to clearForm()"
+[detached HEAD 9a5f537] added textarea clear to clearForm()
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>npm install --save toastr
+
+up to date, audited 5 packages in 1s
+
+found 0 vulnerabilities
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (bootstrapform)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository: (https://github.com/munozarturo-case/csds221-pr1.git)
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\bean_\Programming\Websites\BootstrapForm\package.json:
+
+{
+  "name": "bootstrapform",
+  "version": "1.0.0",
+  "description": "* ~~use#50 boostrap layout includes bootstrap booking form section with sections, panels, and wells that look like the provided preview~~ ✓ [10]\r * ~~use#51 boostrap well includes bootstrap well ✓ with a description inside ✓ ( class = 'well')~~ [10] ✓\r * ~~use#52 user panel includes user panel with a username, first name, and last name textbox~~ ✓ [10]\r * ~~use#53 contact panel includes contact panel with phone ✓, fax, ✓ and email ✓ textboxes with prepended icons (can use input-group-addon or input-group-text)~~ [10] ✓\r * ~~use#54 schedule panel includes schedule panel with a dropdown for number of adults, a date picker for check-in, a date picker for check-out, a readonly days textbox, and a readonly cost textbox~~ ✓ [5]\r * use#55 cost calculation when adults, check-in, or check-out inputs are changed, the days textbox will update with the number of days between check-out and check-in and the cost textbox will update with the cost of the booking which will be $150 *# of adults* # of days [10]\r * ~~use#56 other panel includes another panel with a textarea, a horizontal stepped range bar(~5 - 10 steps), and a priority radio button with low, med, and high~~ [10]\r * use#57 reset button includes a reset button that clears all fields on the form and displays a blue info toaster notifying the user that the fields were successfully cleared [5]\r * use#58 submit button includes a submit button that will validate the username, first, last, phone, fax, and email fields for empty entries and if they don't exist, to highlight red the empty textbox (using the bootstrap .removeClass('has-error') and .addClass('has-error') as needed) and notify the user with a red error toaster displaying the field that it is missing [10]\r * use#59 cost validation submit button must also check to see if the cost was calculated and if it is not, notify user with a red error toaster that no cost was calculated [5]\r * use#60 value validation submit button must also check to see if the cost was positive and if it is not, notify user with a red error toaster that cost is negative [5]\r * use#61 success notification if submit button passes all validation errors, it will display a green success toaster saying the form was successfully submitted [5]\r * use#123 libraries must use bootstrap 3.0 (form-control and grid system with rows/cols OR css flex system), toastr, jquery, and moment libraries at least once in the app (<https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css>) [5]",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munozarturo-case/csds221-pr1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munozarturo-case/csds221-pr1/issues"
+  },
+  "homepage": "https://github.com/munozarturo-case/csds221-pr1#readme"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>npm install --save toastr
+
+added 2 packages, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+warning: in the working copy of 'libs/toastr.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'libs/toastr.js', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added toastr"
+[detached HEAD 761cd3c] added toastr
+ 3 files changed, 709 insertions(+), 12 deletions(-)
+ create mode 100644 libs/toastr.css
+ create mode 100644 libs/toastr.js
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added updateSchedule()"
+[detached HEAD 9814bf9] added updateSchedule()
+ 2 files changed, 25 insertions(+), 9 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "improved schedule update"
+[detached HEAD 8dd190b] improved schedule update
+ 3 files changed, 49 insertions(+), 19 deletions(-)
+ create mode 100644 libs/moment.min.js
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added validation to submitForm()"
+[detached HEAD db066aa] added validation to submitForm()
+ 2 files changed, 79 insertions(+), 21 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "fixed <a> tags href to ="#""
+[detached HEAD 025e9d5] fixed <a> tags href to =#
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git rm target_look.jpg
+fatal: pathspec 'target_look.jpg' did not match any files
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git rm target_look.JPG
+rm 'target_look.JPG'
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "rm"
+[detached HEAD 7bb924d] rm
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 target_look.JPG
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git push
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git branch
+* (HEAD detached from 1a491d9)
+  main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git checkout main
+Warning: you are leaving 11 commits behind, not connected to
+any of your branches:
+
+  7bb924d rm
+  025e9d5 fixed <a> tags href to =#
+  db066aa added validation to submitForm()
+  8dd190b improved schedule update
+ ... and 7 more.
+
+If you want to keep them by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> 7bb924d
+
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git checkout HEAD
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git branch
+* main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git checkout main
+Already on 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git branch
+* main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git log
+commit 1a491d9db20aa63acfd7a3ecfc1b245077b33da4 (HEAD -> main)
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 17:04:37 2023 -0400
+
+    added user
+
+commit e7dde63a9eebc2092b2eaf50f5c56398bb6b7125 (origin/main)
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:55:17 2023 -0400
+
+    reformat readme reqs
+
+commit ff7871336060d5c2316991436ac5020f57f7a60e
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:53:29 2023 -0400
+
+    initial html
+
+commit 23841732b2b6f75e2d7efc5e3df42eecd10a4520
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:52:14 2023 -0400
+
+    added index.html and target look
+
+commit a89674698b5059adbf6c401ef85d4e762787306b
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:50:25 2023 -0400
+
+    first commit
+
+commit 66692c6ec3835e7f4722757b6cfb60791a0a7e50
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:42:27 2023 -0400
+
+    first commit
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOD
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:53:29 2023 -0400
+
+    initial html
+
+commit 23841732b2b6f75e2d7efc5e3df42eecd10a4520
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:52:14 2023 -0400
+
+    added index.html and target look
+
+commit a89674698b5059adbf6c401ef85d4e762787306b
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:50:25 2023 -0400
+
+    first commit
+
+commit 66692c6ec3835e7f4722757b6cfb60791a0a7e50
+Author: munozarturo <munoz.arturoroman@gmail.com>
+Date:   Sat Mar 18 15:42:27 2023 -0400
+
+    first commit
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(END)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(END)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "lost HEAD"
+[main 0b60db8] lost HEAD
+ 1 file changed, 1 insertion(+), 15 deletions(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.13 KiB | 1.13 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/munozarturo-case/csds221-pr1.git
+   e7dde63..0b60db8  main -> main
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "god is great"
+[main ac7a921] god is great
+ 1 file changed, 376 insertions(+), 1 deletion(-)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "added recovered libs"
+[main 23c8b15] added recovered libs
+ 2 files changed, 704 insertions(+)
+ create mode 100644 libs/toastr.css
+ create mode 100644 libs/toastr.js
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git rm target-look.JPG
+fatal: pathspec 'target-look.JPG' did not match any files
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git rm target_look.JPG
+rm 'target_look.JPG'
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "rm"
+[main 3de56a2] rm
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 target_look.JPG
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>
