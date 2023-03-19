@@ -526,4 +526,65 @@ C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "rm"
  1 file changed, 0 insertions(+), 0 deletions(-)
  delete mode 100644 target_look.JPG
 
+C:\Users\bean_\Programming\Websites\BootstrapForm>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (bootstrapform) n
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository: (https://github.com/munozarturo-case/csds221-pr1.git)
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\bean_\Programming\Websites\BootstrapForm\package.json:
+
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "* use#50 boostrap layout includes bootstrap booking form section with sections, panels, and wells that look like the provided preview [10]\r * use#51 boostrap well includes bootstrap well with a description inside ( class = 'well') [10]\r * use#52 user panel includes user panel with a username, first name, and last name textbox [10]\r * use#53 contact panel includes contact panel with phone, fax, and email textboxes with prepended icons (can use input-group-addon or input-group-text) [10]\r * use#54 schedule panel includes schedule panel with a dropdown for number of adults, a date picker for check-in, a date picker for check-out, a readonly days textbox, and a readonly cost textbox [5]\r * use#55 cost calculation when adults, check-in, or check-out inputs are changed, the days textbox will update with the number of days between check-out and check-in and the cost textbox will update with the cost of the booking which will be $150 *# of adults* # of days [10]\r * use#56 other panel includes another panel with a textarea, a horizontal stepped range bar(~5 - 10 steps), and a priority radio button with low, med, and high [10]\r * use#57 reset button includes a reset button that clears all fields on the form and displays a blue info toaster notifying the user that the fields were successfully cleared [5]\r * use#58 submit button includes a submit button that will validate the username, first, last, phone, fax, and email fields for empty entries and if they don't exist, to highlight red the empty textbox (using the bootstrap .removeClass('has-error') and .addClass('has-error') as needed) and notify the user with a red error toaster displaying the field that it is missing [10]\r * use#59 cost validation submit button must also check to see if the cost was calculated and if it is not, notify user with a red error toaster that no cost was calculated [5]\r * use#60 value validation submit button must also check to see if the cost was positive and if it is not, notify user with a red error toaster that cost is negative [5]\r * use#61 success notification if submit button passes all validation errors, it will display a green success toaster saying the form was successfully submitted [5]\r * use#123 libraries must use bootstrap 3.0 (form-control and grid system with rows/cols OR css flex system), toastr, jquery, and moment libraries at least once in the app (<https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css>) [5]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munozarturo-case/csds221-pr1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munozarturo-case/csds221-pr1/issues"
+  },
+  "homepage": "https://github.com/munozarturo-case/csds221-pr1#readme"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>npm install --save toastr
+
+added 2 packages, and audited 3 packages in 1s
+
+found 0 vulnerabilities
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git add .
+warning: in the working copy of 'libs/toastr.css', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\bean_\Programming\Websites\BootstrapForm>git commit -m "miraculous recovery"
+[main 182dec8] miraculous recovery
+ 5 files changed, 761 insertions(+), 706 deletions(-)
+ create mode 100644 cmd_logs.txt
+ delete mode 100644 libs/toastr.js
+ create mode 100644 libs/toastr.min.js
+
 C:\Users\bean_\Programming\Websites\BootstrapForm>
